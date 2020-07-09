@@ -1,0 +1,29 @@
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 70vmin;
+    width: 70vmin;
+    margin: auto;
+}
+
+.box {
+    border: 1px solid;
+    margin-bottom: -1px;
+    margin-right: -1px;
+}
+
+.clicked {
+    pointer-events: none;
+}
+
+.startBtn {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+h1 {
+    color: rgb(33, 162, 218);
+    text-align: center;
+}
